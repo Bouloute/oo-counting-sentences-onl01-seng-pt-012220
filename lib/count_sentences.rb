@@ -23,4 +23,4 @@ class String
   end
 end
 
-"Well, I don't know, is this a sentence?? What about this?".count_sentences_words
+"Well, I don't know, is this a sentence?? What about this? And this...".count_sentences_words
