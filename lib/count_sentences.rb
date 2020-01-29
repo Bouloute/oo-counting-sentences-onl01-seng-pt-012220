@@ -22,3 +22,5 @@ class String
     }
   end
 end
+
+"Well, I don't know, is this a sentence?? ??? What about this?".count_sentences_words
