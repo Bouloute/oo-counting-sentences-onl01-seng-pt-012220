@@ -2,16 +2,16 @@ require 'pry'
 
 class String
 
-  def sentence?
-    
+  def sentence?(sentence)
+    sentence.end_with(".")    
   end
 
-  def question?
-
+  def question?(sentence)
+    sentence.end_with("?")     
   end
 
-  def exclamation?
-
+  def exclamation?(sentence)
+    sentence.end_with("!") 
   end
 
   def count_sentences
