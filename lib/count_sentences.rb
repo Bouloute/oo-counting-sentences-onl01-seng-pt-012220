@@ -22,5 +22,6 @@ class String
         array_of_sentences.delete_at(index)
       end
     }
+    array_of_sentences.size
   end
 end
