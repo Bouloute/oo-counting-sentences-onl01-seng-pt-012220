@@ -17,10 +17,11 @@ class String
   def count_sentences
     array_of_sentences = self.split(/[.?!]/)
     #takes care of multiple punctuations like "?!" or "..."
-    array_of_sentences.each{|sentence|
-    binding.pry
+    array_of_sentences.each_with_index{|sentence, index|
+      if sentence == ""
+        array_of_sentences.delete_at(index)
+      end
     }
   end
 end
 
-"Well, I don't know, is this a sentence?? What about this? And this...".count_sentences
